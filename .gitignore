@@ -1,0 +1,20 @@
+# dependencies
+node_modules
+
+# build output
+.next*
+out
+dist
+.turbo
+
+# environment
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+*.log
+.vercel
+next-env.d.ts
+*.tsbuildinfo
