@@ -56,4 +56,11 @@ export const divisions: Division[] = [
       "Infrastructure for autonomous intelligence: model hosting, inference, and deployment.",
     status: "soon",
   },
+  {
+    name: "Cyber",
+    domain: "cyber.gaaia.co",
+    description:
+      "Security division: threat detection, defensive tooling, and AI-driven cyber operations.",
+    status: "soon",
+  },
 ];

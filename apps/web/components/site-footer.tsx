@@ -43,14 +43,16 @@ export function SiteFooter() {
             <ColumnLabel>Ecosystem</ColumnLabel>
             <ul className="mt-6 space-y-3">
               {divisions.map((d) => (
-                <li
-                  key={d.domain}
-                  className="flex items-center justify-between gap-3 text-sm"
-                >
-                  <span className="text-zinc-300">{d.name}</span>
-                  <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-600">
-                    Soon
-                  </span>
+                <li key={d.domain}>
+                  <a
+                    href={`https://${d.domain}`}
+                    className="flex items-center justify-between gap-3 text-sm text-zinc-300 transition-colors hover:text-silver"
+                  >
+                    <span>{d.name}</span>
+                    <span className="font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-600">
+                      Soon
+                    </span>
+                  </a>
                 </li>
               ))}
             </ul>

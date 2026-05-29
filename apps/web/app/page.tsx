@@ -90,7 +90,7 @@ export default function HomePage() {
         <Container>
           <SectionEyebrow number="02" label="The ecosystem" />
           <h2 className="mt-8 max-w-3xl text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-            One agency. Seven divisions.
+            One agency. Eight divisions.
           </h2>
           <p className="mt-5 max-w-2xl text-base leading-relaxed text-zinc-400">
             GAAIA is organized like a parent organization. Each division
