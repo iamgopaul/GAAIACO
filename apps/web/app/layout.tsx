@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { LiveBackground } from "@/components/live-background";
 import { PageSplash } from "@/components/page-splash";
@@ -23,6 +23,21 @@ export const metadata: Metadata = {
     siteName: "GAAIA",
     type: "website",
   },
+  applicationName: "GAAIA",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "GAAIA",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#000000",
+  colorScheme: "dark",
+  width: "device-width",
+  initialScale: 1,
+  // Allow pinch-zoom for accessibility, but start at 1×.
+  maximumScale: 5,
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

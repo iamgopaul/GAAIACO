@@ -284,8 +284,33 @@
 
 html {
   scroll-behavior: smooth;
+  /* Firefox: thin silver-on-black scrollbar. */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(200, 205, 210, 0.28) transparent;
 }
 
 body {
   background-color: #000000;
+}
+
+/* WebKit / Chromium: silver-on-black scrollbar matching the theme. */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(200, 205, 210, 0.22);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(220, 228, 236, 0.45);
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
 }

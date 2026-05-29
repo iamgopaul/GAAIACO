@@ -48,25 +48,22 @@ export default function ProductsPage() {
           <h2 className="mt-8 max-w-3xl text-3xl font-semibold tracking-tight text-white sm:text-5xl">
             The first wave of GAAIA products.
           </h2>
-          <div className="mt-16 grid gap-px overflow-hidden rounded-xl border border-zinc-800/60 bg-zinc-800/60 sm:grid-cols-2">
+          <div className="mt-16 grid gap-6 sm:grid-cols-2">
             {products.map((p) => (
               <div
                 key={p.number}
-                className="bg-zinc-950/40 p-6 transition hover:bg-zinc-950/70 sm:p-8"
+                className="group relative overflow-hidden rounded-2xl border border-zinc-800/70 bg-zinc-950/40 p-8 transition duration-300 hover:border-silver/40 sm:p-10"
               >
-                <div className="flex items-center justify-between gap-3">
-                  <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-zinc-500">
-                    {p.number}
-                  </span>
-                  <span className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-500">
-                    <span className="h-1.5 w-1.5 rounded-full bg-zinc-600" />
+                <div className="pointer-events-none absolute -right-16 -top-16 h-44 w-44 rounded-full bg-[radial-gradient(circle,rgba(200,204,209,0.1),transparent_70%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                <div className="relative flex items-start justify-between gap-4">
+                  <h3 className="text-2xl font-semibold tracking-tight text-white">
+                    {p.name}
+                  </h3>
+                  <span className="mt-1 shrink-0 rounded-full border border-zinc-700 px-3 py-1 font-mono text-[10px] uppercase tracking-[0.16em] text-zinc-400">
                     Coming soon
                   </span>
                 </div>
-                <h3 className="mt-8 text-lg font-semibold text-white">
-                  {p.name}
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-zinc-400">
+                <p className="relative mt-4 text-sm leading-relaxed text-zinc-400">
                   {p.body}
                 </p>
               </div>

@@ -59,19 +59,22 @@ export default function ServicesPage() {
           <h2 className="mt-8 max-w-3xl text-3xl font-semibold tracking-tight text-white sm:text-5xl">
             Services across the full product lifecycle.
           </h2>
-          <div className="mt-16 grid gap-px overflow-hidden rounded-xl border border-zinc-800/60 bg-zinc-800/60 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-14 border-t border-zinc-800/70">
             {services.map((s) => (
               <div
                 key={s.number}
-                className="bg-zinc-950/40 p-6 transition hover:bg-zinc-950/70 sm:p-8"
+                className="group flex flex-col gap-2 border-b border-zinc-800/70 py-7 transition-colors duration-300 hover:bg-zinc-950/40 sm:flex-row sm:items-baseline sm:gap-8 sm:px-2"
               >
-                <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-zinc-500">
+                <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-zinc-500 sm:w-12 sm:shrink-0">
                   {s.number}
                 </span>
-                <h3 className="mt-8 text-lg font-semibold text-white">
+                <h3 className="flex items-center gap-2 text-xl font-semibold text-white sm:w-64 sm:shrink-0">
                   {s.title}
+                  <span className="text-silver opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
+                    →
+                  </span>
                 </h3>
-                <p className="mt-3 text-sm leading-relaxed text-zinc-400">
+                <p className="text-sm leading-relaxed text-zinc-400">
                   {s.body}
                 </p>
               </div>

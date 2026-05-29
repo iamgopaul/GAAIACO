@@ -78,6 +78,18 @@ export function PageSplash() {
     return () => window.removeEventListener("keydown", onKey);
   }, [skip]);
 
+  // Lock page scroll while the splash is on screen.
+  useEffect(() => {
+    if (!active) return;
+    const html = document.documentElement;
+    const prev = html.style.overflow;
+    html.style.overflow = "hidden";
+    window.scrollTo(0, 0);
+    return () => {
+      html.style.overflow = prev;
+    };
+  }, [active]);
+
   // Particle network — runs while the splash is mounted.
   useEffect(() => {
     if (!active) return;

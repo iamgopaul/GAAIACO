@@ -48,22 +48,19 @@ export default function LabsPage() {
           <h2 className="mt-8 max-w-3xl text-3xl font-semibold tracking-tight text-white sm:text-5xl">
             Research in progress.
           </h2>
-          <div className="mt-16 grid gap-px overflow-hidden rounded-xl border border-zinc-800/60 bg-zinc-800/60 sm:grid-cols-2">
+          <div className="mt-16 grid gap-5 sm:grid-cols-2">
             {experiments.map((e) => (
               <div
                 key={e.number}
-                className="bg-zinc-950/40 p-6 transition hover:bg-zinc-950/70 sm:p-8"
+                className="group rounded-xl border border-dashed border-zinc-700/80 bg-zinc-950/30 p-6 transition duration-300 hover:border-silver/50 hover:bg-zinc-950/60 sm:p-8"
               >
-                <div className="flex items-center justify-between gap-3">
-                  <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-zinc-500">
-                    {e.number}
-                  </span>
-                  <span className="flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-500">
-                    <span className="h-1.5 w-1.5 rounded-full bg-zinc-600" />
+                <div className="flex items-center justify-between gap-3 font-mono text-[10px] uppercase tracking-[0.18em] text-zinc-500">
+                  <span>Experiment {e.number}</span>
+                  <span className="rounded border border-zinc-700 px-2 py-0.5 text-silver/70">
                     Experimental
                   </span>
                 </div>
-                <h3 className="mt-8 text-lg font-semibold text-white">
+                <h3 className="mt-7 font-mono text-lg font-semibold text-white">
                   {e.name}
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-zinc-400">

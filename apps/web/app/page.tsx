@@ -26,11 +26,8 @@ export default function HomePage() {
   return (
     <>
       {/* === Hero =========================================================== */}
-      <section
-        id="hero"
-        className="relative flex min-h-svh flex-col justify-center"
-      >
-        <Container className="relative py-28 sm:py-32">
+      <section id="hero" className="relative min-h-svh">
+        <Container className="relative pt-36 pb-24 sm:pt-48 sm:pb-32">
           <div className="flex items-center gap-3 font-mono text-[11px] uppercase tracking-[0.22em] text-zinc-500">
             <span className="text-silver">GAAIA</span>
             <span className="h-px w-10 bg-zinc-800" />
@@ -67,19 +64,19 @@ export default function HomePage() {
             From research to production, GAAIA covers every layer of an
             intelligent product.
           </p>
-          <div className="mt-16 grid gap-px overflow-hidden rounded-xl border border-zinc-800/60 bg-zinc-800/60 sm:grid-cols-3">
+          <div className="mt-16 grid gap-5 sm:grid-cols-3">
             {capabilities.map((c) => (
               <div
                 key={c.number}
-                className="bg-zinc-950/40 p-6 transition hover:bg-zinc-950/70 sm:p-8"
+                className="group relative overflow-hidden rounded-2xl border border-zinc-800/70 bg-gradient-to-b from-zinc-900/50 to-zinc-950/10 p-8 transition duration-300 hover:border-silver/40 hover:from-zinc-900/80"
               >
-                <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-zinc-500">
+                <span className="pointer-events-none absolute -top-4 right-1 font-display text-7xl leading-none text-white/[0.06] transition-colors duration-300 group-hover:text-white/10">
                   {c.number}
                 </span>
-                <h3 className="mt-8 text-lg font-semibold text-white">
+                <h3 className="relative mt-4 text-lg font-semibold text-white">
                   {c.title}
                 </h3>
-                <p className="mt-3 text-sm leading-relaxed text-zinc-400">
+                <p className="relative mt-3 text-sm leading-relaxed text-zinc-400">
                   {c.body}
                 </p>
               </div>
@@ -99,7 +96,7 @@ export default function HomePage() {
             GAAIA is organized like a parent organization. Each division
             operates as its own platform under the gaaia.co umbrella.
           </p>
-          <div className="mt-16 grid gap-px overflow-hidden rounded-xl border border-zinc-800/60 bg-zinc-800/60 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-16 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {divisions.map((division, i) => (
               <DivisionCard key={division.domain} index={i} {...division} />
             ))}
@@ -110,8 +107,10 @@ export default function HomePage() {
       {/* === 03 · CTA ======================================================= */}
       <section className="py-24 sm:py-32">
         <Container>
-          <div className="overflow-hidden rounded-2xl border border-zinc-800/60 bg-zinc-950/40 p-10 sm:p-16">
-            <SectionEyebrow number="03" label="Get in touch" />
+          <div className="relative overflow-hidden rounded-3xl border border-zinc-800/60 bg-zinc-950/50 p-10 sm:p-16">
+            <div className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-[radial-gradient(circle,rgba(200,204,209,0.12),transparent_70%)]" />
+            <div className="relative">
+              <SectionEyebrow number="03" label="Get in touch" />
             <h2 className="mt-8 max-w-2xl text-3xl font-semibold tracking-tight text-white sm:text-5xl">
               Have a project in mind?
             </h2>
@@ -120,8 +119,9 @@ export default function HomePage() {
               product built from scratch, GAAIA can take it from idea to
               deployment.
             </p>
-            <div className="mt-10">
-              <Button href="/contact">Start the conversation</Button>
+              <div className="mt-10">
+                <Button href="/contact">Start the conversation</Button>
+              </div>
             </div>
           </div>
         </Container>

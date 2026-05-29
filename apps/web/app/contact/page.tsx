@@ -44,11 +44,12 @@ export default function ContactPage() {
       <section className="py-24 sm:py-32">
         <Container>
           <SectionEyebrow number="01" label="Channels" />
-          <div className="mt-12 grid gap-px overflow-hidden rounded-xl border border-zinc-800/60 bg-zinc-800/60 sm:grid-cols-3">
+          <div className="mt-12 grid gap-5 sm:grid-cols-3">
             {channels.map((c) => (
-              <div
+              <a
                 key={c.email}
-                className="flex flex-col bg-zinc-950/40 p-6 transition hover:bg-zinc-950/70 sm:p-8"
+                href={`mailto:${c.email}`}
+                className="group flex flex-col rounded-2xl border border-zinc-800/70 bg-zinc-950/40 p-7 transition duration-300 hover:border-silver/40 hover:bg-zinc-950/70 sm:p-8"
               >
                 <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-zinc-500">
                   {c.number}
@@ -59,13 +60,13 @@ export default function ContactPage() {
                 <p className="mt-3 flex-1 text-sm leading-relaxed text-zinc-400">
                   {c.body}
                 </p>
-                <a
-                  href={`mailto:${c.email}`}
-                  className="mt-6 font-mono text-sm text-silver hover:text-silver-bright"
-                >
+                <span className="mt-8 flex items-center justify-between gap-2 border-t border-zinc-800/70 pt-4 font-mono text-sm text-silver transition-colors group-hover:text-silver-bright">
                   {c.email}
-                </a>
-              </div>
+                  <span className="transition-transform duration-300 group-hover:translate-x-1">
+                    →
+                  </span>
+                </span>
+              </a>
             ))}
           </div>
         </Container>
