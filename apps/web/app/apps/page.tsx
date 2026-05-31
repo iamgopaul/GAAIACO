@@ -1,7 +1,7 @@
 import { Container } from "@gaaia/ui/container";
 import { Button } from "@gaaia/ui/button";
 import { SectionEyebrow } from "@gaaia/ui/section-eyebrow";
-import { division } from "@/lib/divisions/labs";
+import { division } from "@/lib/divisions/apps";
 
 export default function HomePage() {
   return (
