@@ -20,7 +20,7 @@ export const division = {
     {
       number: "02",
       title: "Single sign-on",
-      body: "One GAAIA identity unlocks every app — SSO, SAML, and OAuth supported.",
+      body: "One GAAIA identity unlocks every app, SSO, SAML, and OAuth supported.",
     },
     {
       number: "03",
@@ -37,7 +37,7 @@ export const division = {
     {
       number: "02",
       title: "Unified identity",
-      body: "One account, one MFA setup, one set of recovery codes — across every tool.",
+      body: "One account, one MFA setup, one set of recovery codes, across every tool.",
     },
     {
       number: "03",
@@ -124,7 +124,7 @@ export const division = {
       "As the GAAIA ecosystem grows, you shouldn't have to learn a new login, billing model, and admin console for each tool. Apps is the connective tissue.",
     vision: "One workspace for every intelligent product a team uses.",
     visionBody:
-      "We want the GAAIA launcher to feel like an OS for the agency's products — and eventually for the wider ecosystem of partner apps.",
+      "We want the GAAIA launcher to feel like an OS for the agency's products, and eventually for the wider ecosystem of partner apps.",
     principles: [
       {
         number: "01",

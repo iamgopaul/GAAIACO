@@ -94,10 +94,18 @@ export function SiteFooter({
               </li>
               <li>
                 <a
-                  href="mailto:hello@gaaia.co"
+                  href="mailto:gaaia.team@gmail.com"
                   className="font-mono text-silver hover:text-silver-bright"
                 >
-                  hello@gaaia.co
+                  gaaia.team@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="tel:+17542819617"
+                  className="font-mono text-silver hover:text-silver-bright"
+                >
+                  +1 (754) 281-9617
                 </a>
               </li>
             </ul>

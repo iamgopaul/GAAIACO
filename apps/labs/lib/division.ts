@@ -9,7 +9,7 @@ export const division = {
     eyebrow: "GAAIA Labs",
     title: "Research in",
     titleAccent: "the open.",
-    sub: "Labs is where GAAIA explores what's possible — prototypes, papers, and demos that point toward where the agency is heading.",
+    sub: "Labs is where GAAIA explores what's possible, prototypes, papers, and demos that point toward where the agency is heading.",
   },
   capabilities: [
     {
@@ -20,7 +20,7 @@ export const division = {
     {
       number: "02",
       title: "Experiments",
-      body: "Small, focused builds that test a specific idea — published whether they work or not.",
+      body: "Small, focused builds that test a specific idea, published whether they work or not.",
     },
     {
       number: "03",
@@ -124,7 +124,7 @@ export const division = {
       "Product teams chase what ships next quarter. Labs is where we chase the bets that might define what GAAIA ships in two years.",
     vision: "A pipeline from frontier research to production product.",
     visionBody:
-      "We want every interesting result to have a clear path into the rest of the agency — or into the wider world.",
+      "We want every interesting result to have a clear path into the rest of the agency, or into the wider world.",
     principles: [
       {
         number: "01",

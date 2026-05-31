@@ -9,7 +9,7 @@ export const division = {
     eyebrow: "GAAIA Cyber",
     title: "Security built for",
     titleAccent: "AI-native teams.",
-    sub: "Detection, response, and defensive tooling that understands how modern systems — agents, APIs, and AI features — actually fail.",
+    sub: "Detection, response, and defensive tooling that understands how modern systems, agents, APIs, and AI features, actually fail.",
   },
   capabilities: [
     {
@@ -47,7 +47,7 @@ export const division = {
     {
       number: "04",
       title: "Incident response",
-      body: "Senior responders on-call when something breaks — with hand-back to your team.",
+      body: "Senior responders on-call when something breaks, with hand-back to your team.",
     },
     {
       number: "05",
@@ -79,7 +79,7 @@ export const division = {
     {
       number: "04",
       title: "Incident response",
-      body: "On-call expertise when something is on fire — and a plan for it not to recur.",
+      body: "On-call expertise when something is on fire, and a plan for it not to recur.",
     },
   ],
   pricing: [
@@ -124,7 +124,7 @@ export const division = {
       "Most security advice assumes a 50-person SOC. Most teams don't have one. Cyber exists to make defensible security real for the teams in between.",
     vision: "A security baseline every team can hit, regardless of size.",
     visionBody:
-      "We want even a small team shipping AI features to have honest answers to 'is this secure' — and the tooling to keep it that way.",
+      "We want even a small team shipping AI features to have honest answers to 'is this secure', and the tooling to keep it that way.",
     principles: [
       {
         number: "01",

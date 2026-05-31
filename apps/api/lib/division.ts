@@ -9,7 +9,7 @@ export const division = {
     eyebrow: "GAAIA API",
     title: "Build on top of",
     titleAccent: "the agency.",
-    sub: "One API surface for agents, models, retrieval, and orchestration — with SDKs, docs, and a real status page behind it.",
+    sub: "One API surface for agents, models, retrieval, and orchestration, with SDKs, docs, and a real status page behind it.",
   },
   capabilities: [
     {
@@ -37,7 +37,7 @@ export const division = {
     {
       number: "02",
       title: "Models API",
-      body: "A single endpoint over text, image, audio, and embeddings — with model routing.",
+      body: "A single endpoint over text, image, audio, and embeddings, with model routing.",
     },
     {
       number: "03",
@@ -124,7 +124,7 @@ export const division = {
       "Internal tools are powerful, but real leverage comes from letting developers build on top. The API team exists to keep that surface stable, fast, and pleasant to use.",
     vision: "The default way to ship intelligent features.",
     visionBody:
-      "We want GAAIA API to be the obvious choice when an engineer says 'add AI to this' — because it just works.",
+      "We want GAAIA API to be the obvious choice when an engineer says 'add AI to this', because it just works.",
     principles: [
       {
         number: "01",
@@ -139,7 +139,7 @@ export const division = {
       {
         number: "03",
         title: "Status is honest",
-        body: "We tell you when something is degraded — even when it's only us who noticed.",
+        body: "We tell you when something is degraded, even when it's only us who noticed.",
       },
     ],
   },

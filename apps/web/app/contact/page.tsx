@@ -10,24 +10,24 @@ export const metadata: Metadata = {
     "Get in touch with GAAIA for project enquiries, partnerships, and investor information.",
 };
 
+const EMAIL = "gaaia.team@gmail.com";
+const PHONE_DISPLAY = "+1 (754) 281-9617";
+const PHONE_TEL = "+17542819617";
+
 const channels = [
   {
     number: "01",
-    title: "General & projects",
-    body: "Questions, project enquiries, or anything else.",
-    email: "hello@gaaia.co",
+    title: "Email",
+    body: "Project enquiries, partnerships, investors, or anything else.",
+    value: EMAIL,
+    href: `mailto:${EMAIL}`,
   },
   {
     number: "02",
-    title: "Partnerships",
-    body: "Collaborations, integrations, and joint ventures.",
-    email: "partners@gaaia.co",
-  },
-  {
-    number: "03",
-    title: "Investors",
-    body: "Investor relations, decks, and company information.",
-    email: "investors@gaaia.co",
+    title: "Phone",
+    body: "Reach the team directly during business hours.",
+    value: PHONE_DISPLAY,
+    href: `tel:${PHONE_TEL}`,
   },
 ];
 
@@ -40,15 +40,14 @@ export default function ContactPage() {
         description="Tell us about your project, a partnership idea, or request investor information. We read every message."
       />
 
-      {/* === 01 · Channels ================================================ */}
       <section className="py-24 sm:py-32">
         <Container>
           <SectionEyebrow number="01" label="Channels" />
-          <div className="mt-12 grid gap-5 sm:grid-cols-3">
+          <div className="mt-12 grid gap-5 sm:grid-cols-2">
             {channels.map((c) => (
               <a
-                key={c.email}
-                href={`mailto:${c.email}`}
+                key={c.value}
+                href={c.href}
                 className="group flex flex-col rounded-2xl border border-zinc-800/70 bg-zinc-950/40 p-7 transition duration-300 hover:border-silver/40 hover:bg-zinc-950/70 sm:p-8"
               >
                 <span className="font-mono text-[11px] uppercase tracking-[0.22em] text-zinc-500">
@@ -61,7 +60,7 @@ export default function ContactPage() {
                   {c.body}
                 </p>
                 <span className="mt-8 flex items-center justify-between gap-2 border-t border-zinc-800/70 pt-4 font-mono text-sm text-silver transition-colors group-hover:text-silver-bright">
-                  {c.email}
+                  {c.value}
                   <span className="transition-transform duration-300 group-hover:translate-x-1">
                     →
                   </span>
@@ -72,7 +71,6 @@ export default function ContactPage() {
         </Container>
       </section>
 
-      {/* === 02 · Direct =================================================== */}
       <section className="py-24 sm:py-32">
         <Container>
           <div className="overflow-hidden rounded-2xl border border-zinc-800/60 bg-zinc-950/40 p-10 sm:p-16">
@@ -86,7 +84,7 @@ export default function ContactPage() {
               days.
             </p>
             <div className="mt-10">
-              <Button href="mailto:hello@gaaia.co?subject=Project%20enquiry">
+              <Button href={`mailto:${EMAIL}?subject=Project%20enquiry`}>
                 Email GAAIA
               </Button>
             </div>

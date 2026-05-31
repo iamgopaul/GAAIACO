@@ -17,7 +17,7 @@ export default function PricingPage() {
         label="Pricing"
         prefix={division.short}
         title="Plans that scale with you."
-        description="Every engagement is bespoke. The tiers below are a starting point — we tailor scope, support, and infrastructure to fit."
+        description="Every engagement is bespoke. The tiers below are a starting point, we tailor scope, support, and infrastructure to fit."
       />
 
       <section className="py-24 sm:py-32">

@@ -121,10 +121,10 @@ export const division = {
   about: {
     mission: "Make agents trustworthy enough to use every day.",
     missionBody:
-      "An agent is only useful if you can rely on it. We focus on the unglamorous parts — retries, evals, handoff, observability — so the behavior holds up under real workloads.",
+      "An agent is only useful if you can rely on it. We focus on the unglamorous parts, retries, evals, handoff, observability, so the behavior holds up under real workloads.",
     vision: "Every person and team has a fleet of agents working alongside them.",
     visionBody:
-      "We expect agents to become as common as inboxes — quietly handling the things that don't need a human, escalating the things that do.",
+      "We expect agents to become as common as inboxes, quietly handling the things that don't need a human, escalating the things that do.",
     principles: [
       {
         number: "01",

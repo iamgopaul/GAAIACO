@@ -9,7 +9,7 @@ export const division = {
     eyebrow: "GAAIA Cloud",
     title: "The infrastructure",
     titleAccent: "behind everything.",
-    sub: "Model hosting, inference, retrieval, and deployment — purpose-built for AI workloads instead of retrofitted onto general-purpose cloud.",
+    sub: "Model hosting, inference, retrieval, and deployment, purpose-built for AI workloads instead of retrofitted onto general-purpose cloud.",
   },
   capabilities: [
     {
@@ -57,7 +57,7 @@ export const division = {
     {
       number: "06",
       title: "Observability",
-      body: "Latency, cost, and accuracy per request — exportable to your existing stack.",
+      body: "Latency, cost, and accuracy per request, exportable to your existing stack.",
     },
   ],
   useCases: [
@@ -134,7 +134,7 @@ export const division = {
       {
         number: "02",
         title: "Boring is good",
-        body: "We pick infrastructure that operators trust — even when it's less exciting.",
+        body: "We pick infrastructure that operators trust, even when it's less exciting.",
       },
       {
         number: "03",

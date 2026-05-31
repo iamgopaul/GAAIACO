@@ -121,7 +121,7 @@ export const division = {
   about: {
     mission: "Ship software that actually runs in production.",
     missionBody:
-      "Demos don't run businesses. We focus on the unsexy parts — types, tests, deploys, and observability — so the things we build are still working a year later.",
+      "Demos don't run businesses. We focus on the unsexy parts, types, tests, deploys, and observability, so the things we build are still working a year later.",
     vision: "Every business has access to senior-quality engineering.",
     visionBody:
       "We want a small team without a CTO to be able to ship the same quality of software as a 200-person product org.",

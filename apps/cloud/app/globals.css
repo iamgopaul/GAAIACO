@@ -3,7 +3,7 @@
 /* Also scan the shared component library so its utility classes are emitted. */
 @source "../../../packages/ui/src";
 
-/* Silver-on-black theme — the metallic accent used across every surface. */
+/* Silver-on-black theme, the metallic accent used across every surface. */
 @theme {
   --color-silver: #c8ccd1;
   --color-silver-bright: #eceef0;
@@ -164,7 +164,7 @@
   }
 }
 
-/* The orb core — appears first and beats like a heart. */
+/* The orb core, appears first and beats like a heart. */
 .gaaia-intro-core {
   position: absolute;
   left: 52.7%;
