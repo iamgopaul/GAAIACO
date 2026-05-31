@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Container } from "@gaaia/ui/container";
 import { Button } from "@gaaia/ui/button";
-import { PageHeader } from "@/components/page-header";
-import { SectionEyebrow } from "@/components/section-eyebrow";
+import { PageHeader } from "@gaaia/ui/page-header";
+import { SectionEyebrow } from "@gaaia/ui/section-eyebrow";
 
 export const metadata: Metadata = {
   title: "Services",

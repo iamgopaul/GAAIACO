@@ -15,7 +15,351 @@ importers:
         specifier: ^5
         version: 5.9.3
 
+  apps/agents:
+    dependencies:
+      '@gaaia/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      next:
+        specifier: ^15
+        version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react:
+        specifier: ^19
+        version: 19.2.6
+      react-dom:
+        specifier: ^19
+        version: 19.2.6(react@19.2.6)
+    devDependencies:
+      '@gaaia/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@gaaia/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@tailwindcss/postcss':
+        specifier: ^4
+        version: 4.3.0
+      '@types/node':
+        specifier: ^22
+        version: 22.19.19
+      '@types/react':
+        specifier: ^19
+        version: 19.2.15
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.2.3(@types/react@19.2.15)
+      eslint:
+        specifier: ^9
+        version: 9.39.4(jiti@2.7.0)
+      tailwindcss:
+        specifier: ^4
+        version: 4.3.0
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  apps/ai:
+    dependencies:
+      '@gaaia/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      next:
+        specifier: ^15
+        version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react:
+        specifier: ^19
+        version: 19.2.6
+      react-dom:
+        specifier: ^19
+        version: 19.2.6(react@19.2.6)
+    devDependencies:
+      '@gaaia/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@gaaia/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@tailwindcss/postcss':
+        specifier: ^4
+        version: 4.3.0
+      '@types/node':
+        specifier: ^22
+        version: 22.19.19
+      '@types/react':
+        specifier: ^19
+        version: 19.2.15
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.2.3(@types/react@19.2.15)
+      eslint:
+        specifier: ^9
+        version: 9.39.4(jiti@2.7.0)
+      tailwindcss:
+        specifier: ^4
+        version: 4.3.0
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  apps/api:
+    dependencies:
+      '@gaaia/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      next:
+        specifier: ^15
+        version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react:
+        specifier: ^19
+        version: 19.2.6
+      react-dom:
+        specifier: ^19
+        version: 19.2.6(react@19.2.6)
+    devDependencies:
+      '@gaaia/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@gaaia/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@tailwindcss/postcss':
+        specifier: ^4
+        version: 4.3.0
+      '@types/node':
+        specifier: ^22
+        version: 22.19.19
+      '@types/react':
+        specifier: ^19
+        version: 19.2.15
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.2.3(@types/react@19.2.15)
+      eslint:
+        specifier: ^9
+        version: 9.39.4(jiti@2.7.0)
+      tailwindcss:
+        specifier: ^4
+        version: 4.3.0
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  apps/apps:
+    dependencies:
+      '@gaaia/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      next:
+        specifier: ^15
+        version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react:
+        specifier: ^19
+        version: 19.2.6
+      react-dom:
+        specifier: ^19
+        version: 19.2.6(react@19.2.6)
+    devDependencies:
+      '@gaaia/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@gaaia/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@tailwindcss/postcss':
+        specifier: ^4
+        version: 4.3.0
+      '@types/node':
+        specifier: ^22
+        version: 22.19.19
+      '@types/react':
+        specifier: ^19
+        version: 19.2.15
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.2.3(@types/react@19.2.15)
+      eslint:
+        specifier: ^9
+        version: 9.39.4(jiti@2.7.0)
+      tailwindcss:
+        specifier: ^4
+        version: 4.3.0
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  apps/cloud:
+    dependencies:
+      '@gaaia/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      next:
+        specifier: ^15
+        version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react:
+        specifier: ^19
+        version: 19.2.6
+      react-dom:
+        specifier: ^19
+        version: 19.2.6(react@19.2.6)
+    devDependencies:
+      '@gaaia/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@gaaia/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@tailwindcss/postcss':
+        specifier: ^4
+        version: 4.3.0
+      '@types/node':
+        specifier: ^22
+        version: 22.19.19
+      '@types/react':
+        specifier: ^19
+        version: 19.2.15
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.2.3(@types/react@19.2.15)
+      eslint:
+        specifier: ^9
+        version: 9.39.4(jiti@2.7.0)
+      tailwindcss:
+        specifier: ^4
+        version: 4.3.0
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  apps/cyber:
+    dependencies:
+      '@gaaia/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      next:
+        specifier: ^15
+        version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react:
+        specifier: ^19
+        version: 19.2.6
+      react-dom:
+        specifier: ^19
+        version: 19.2.6(react@19.2.6)
+    devDependencies:
+      '@gaaia/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@gaaia/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@tailwindcss/postcss':
+        specifier: ^4
+        version: 4.3.0
+      '@types/node':
+        specifier: ^22
+        version: 22.19.19
+      '@types/react':
+        specifier: ^19
+        version: 19.2.15
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.2.3(@types/react@19.2.15)
+      eslint:
+        specifier: ^9
+        version: 9.39.4(jiti@2.7.0)
+      tailwindcss:
+        specifier: ^4
+        version: 4.3.0
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  apps/labs:
+    dependencies:
+      '@gaaia/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      next:
+        specifier: ^15
+        version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react:
+        specifier: ^19
+        version: 19.2.6
+      react-dom:
+        specifier: ^19
+        version: 19.2.6(react@19.2.6)
+    devDependencies:
+      '@gaaia/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@gaaia/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@tailwindcss/postcss':
+        specifier: ^4
+        version: 4.3.0
+      '@types/node':
+        specifier: ^22
+        version: 22.19.19
+      '@types/react':
+        specifier: ^19
+        version: 19.2.15
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.2.3(@types/react@19.2.15)
+      eslint:
+        specifier: ^9
+        version: 9.39.4(jiti@2.7.0)
+      tailwindcss:
+        specifier: ^4
+        version: 4.3.0
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
   apps/web:
+    dependencies:
+      '@gaaia/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      next:
+        specifier: ^15
+        version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
+      react:
+        specifier: ^19
+        version: 19.2.6
+      react-dom:
+        specifier: ^19
+        version: 19.2.6(react@19.2.6)
+    devDependencies:
+      '@gaaia/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@gaaia/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
+      '@tailwindcss/postcss':
+        specifier: ^4
+        version: 4.3.0
+      '@types/node':
+        specifier: ^22
+        version: 22.19.19
+      '@types/react':
+        specifier: ^19
+        version: 19.2.15
+      '@types/react-dom':
+        specifier: ^19
+        version: 19.2.3(@types/react@19.2.15)
+      eslint:
+        specifier: ^9
+        version: 9.39.4(jiti@2.7.0)
+      tailwindcss:
+        specifier: ^4
+        version: 4.3.0
+      typescript:
+        specifier: ^5
+        version: 5.9.3
+
+  apps/web-studio:
     dependencies:
       '@gaaia/ui':
         specifier: workspace:*
@@ -98,6 +442,9 @@ importers:
       eslint:
         specifier: ^9
         version: 9.39.4(jiti@2.7.0)
+      next:
+        specifier: ^15.5.0
+        version: 15.5.18(react-dom@19.2.6(react@19.2.6))(react@19.2.6)
       react:
         specifier: ^19
         version: 19.2.6

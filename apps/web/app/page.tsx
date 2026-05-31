@@ -1,8 +1,8 @@
 import { Container } from "@gaaia/ui/container";
 import { Button } from "@gaaia/ui/button";
-import { DivisionCard } from "@/components/division-card";
-import { SectionEyebrow } from "@/components/section-eyebrow";
-import { divisions } from "@/lib/divisions";
+import { DivisionCard } from "@gaaia/ui/division-card";
+import { SectionEyebrow } from "@gaaia/ui/section-eyebrow";
+import { divisions } from "@gaaia/ui/divisions";
 
 const capabilities = [
   {
